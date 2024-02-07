@@ -16,11 +16,14 @@ print(cleared_list)
 # count-tells you how many times an item appers in a list   .count(item)
 count_items=new_list.count("John")
 print(count_items)
-# sort(we only sort numbers)   .sort()
+# sort(we only sort numbers)   .sort() it only works for integers and floats (arranges them in ascending order)
 unsorted_items=[29,3,0,1,5,80]
 unsorted_items.sort()
 print("These are the sorted items: ", unsorted_items)
 # reverse
 unsorted_items.reverse()
 print(unsorted_items)
+# copying
+copied_list=unsorted_items.copy()
+print(copied_list)
 
